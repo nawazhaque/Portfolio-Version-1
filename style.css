@@ -1,0 +1,596 @@
+/* ------------------------------------------------------------- Global Settings --------------------------------------------------------- */
+:root {
+    --grey: #2F2F2F;
+    --eerieblack: #222222;
+    --calmgold: #e7ab14;
+    --white: #FFFFFF;
+    
+  }
+  
+
+  * {
+      margin: 0 auto;
+      scroll-behavior: smooth;
+      padding: 0;
+      background-color: #000000;
+      box-sizing: border-box;
+  }
+/* --------------------------------------------------------- End Global Settings --------------------------------------------------------- */
+/* ----------------------------------------------------------- Landing Section  ---------------------------------------------------------- */
+.main_header {
+      background-position: center;
+      color: var(--white);
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+  .main_header a {
+    color: var(--white);
+    font-size: 100px;;
+  }
+  
+  .main_header h1 {
+      margin: 0 auto;
+      font-size: 10em;
+      font-family: 'Times New Roman', Times, serif;
+  
+  }
+
+  .main_header h1:hover {
+    cursor: pointer;
+  }
+
+  .mainSmall {
+    margin: 0 auto;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s ease 0s;
+   
+  }
+  
+  .main_header small {
+      color: var(--white);
+      margin: 0 auto;
+      font-size: 3em;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 190px;
+  }
+
+  /* Scroll Down Animation */
+    
+
+  .scrollContainer {
+    font-family: "Times New Roman";
+    font-size: 0.3em;
+    justify-content: center;
+    flex-direction: column;
+  }  
+
+/* ---------------------------------------------------------- End Landing Section  ------------------------------------------------------ */
+/* ---------------------------------------------------------- First Info Section  ------------------------------------------------------- */
+#aboutMe {
+  width: 100%;
+  height: 100vh;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.4s ease 0s;
+
+}
+
+.aboutMeTile {
+  margin: 2em;
+  background: #000000;
+  height: 70vh;
+  width: 70vw;
+  transition: all 0.4s ease 0s;
+  border-radius: 5px;
+  border: 1px solid var(--white)
+}
+
+.aboutMeTile h2 {
+  background-color: transparent;
+  text-align: center;
+  margin: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutMeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.aboutMeContent p {
+  margin: 2em;
+  width: 30vw;
+  
+  background-color: transparent;
+}
+
+.pic {
+  max-height: 45vh;
+  margin: 2em;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.languages {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: var(--calmgold);
+}
+
+
+.languages li a {
+  color: var(--white);
+  background-color: transparent;
+}
+
+
+
+
+/* ---------------------------------------------------------- End First Info Section  ---------------------------------------------------- */
+/* ---------------------------------------------------------- Ecom Project Info Section  ------------------------------------------------------- */
+#ecom_section {
+  width: 100%;
+  height: 100vh;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.4s ease 0s;
+  font-size: 20px;
+  font-style:oblique;
+}
+
+.ecomInfo {
+    font-size: 1000px;
+}
+
+.ecomTile {
+  margin: 1.5em;
+  height: 95vh;
+  width: 80vw;
+  border-radius: 5px;
+  border: 1px solid var(--white)
+}
+
+.ecomTile h2 {
+  background-color: transparent;
+  text-align: center;
+  margin: 1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ecomtile_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ecomtile_content p {
+  margin: 1em;
+  width: 30vw;
+  font-size: 0.70em;
+  background-color: transparent;
+}
+
+.techPageRef {
+    color:var(--white);
+}
+
+#image {
+  height: 300px;
+  width: 375px;
+  margin: 1em;
+  border-radius: 1px;
+}
+/* --------------------------------------------------------- End Second Info Section  ---------------------------------------------------- */
+/* ---------------------------------------------------------- Third Info Section  -------------------------------------------------------- */
+#section_four {
+  width: 100%;
+  height: 100vh;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.4s ease 0s;
+}
+
+.button {
+    margin-left:3em;
+    color:white;
+}
+
+.roadtalkTile {
+  margin: 1.5em;
+  background: #000000;
+  height: 75vh;
+  width: 70vw;
+  transition: all 0.4s ease 0s;
+  border-radius: 5px;
+  border: 1px solid var(--white)
+}
+
+.roadtalkTile h2 {
+  background-color: transparent;
+  text-align: center;
+  margin: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tile3_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.tile3_content p {
+  margin: 2em;
+  width: 30vw;
+  font-size: 0.68em;
+  background-color: transparent;
+}
+
+#image2 {
+  height: 410px;
+  width: 450px;
+  margin: 1em;
+  border-radius: 10px;
+}
+/* --------------------------------------------------------- End Third Info Section -------------------------------------------------------- */
+/* ----------------------------------------------------------- Fourth Info Section  -------------------------------------------------------- */
+#techProjects {
+  width: 100%;
+  height: 100vh;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.4s ease 0s;
+}
+
+.button1{
+    margin-left: 40px;
+}
+
+.buttonText {
+    font-size: 20px;
+    color: white;
+}
+
+.techPageContainer {
+  margin-bottom:-390px;
+  background: #000000;
+  height: 150vh;
+  width: 70vw;
+  border-radius: 5px;
+  border: 1px solid var(--white);
+  padding: 2em;
+}
+
+.titleTech {
+ margin-left: 400px;
+ margin-bottom: 1100px;
+ font-size: 30px;
+ justify-content: center;
+}
+
+
+
+.techPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.tech_tile {
+  padding: 1em;
+}
+
+.tech_tile_content {
+  position: relative;
+  margin-left: -550px;
+  background-color: var(--white);
+  width: 20vw;
+  height: 35vh;
+  padding: 1em;
+}
+
+.tech_tile_content:hover {
+  border-radius: 10px;
+  background-color: var(--calmgold);
+}
+
+.tech_tile_content h5 {
+  text-align: center;
+  background-color: transparent;
+  color: #000000;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tech_tile_content ul {
+  background-color: transparent;
+  padding: 0.7em;
+  color: #000000;
+  font-size: 0.8em;
+}
+
+.tech_tile_content ul li {
+  background-color: transparent;
+  list-style: none;
+}
+
+.gh_container {
+  background-color: transparent;
+  text-align: center;
+}
+
+.gh {
+    color:var(--grey);
+}
+.buttonText2 {
+    font-size: 20px;
+}
+
+/* --------------------------------------------------------- End Tech Page Info Section  ------------------------------------------------------ */
+
+/* ---------------------------------------------------------------- Footer Section -------------------------------------------------------- */
+.linksEx {
+    color: var(--white);
+}
+
+footer {
+  background-image: url("images/home2-large.jpg");
+  width: 100%;
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;;
+  max-width: 1300px;
+  height: 35vh;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--white);
+}
+
+
+
+.linksEx ul {
+    margin-top: 100px;
+    list-style: none;
+}
+
+.links {
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid var(--white);
+  color: var(--white);;
+}
+
+
+
+.links ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links ul li {
+  
+  background-color: transparent;
+  padding: 1em;
+  color: var(--white);
+}
+
+.links ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.links ul li a:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.iglogo {
+    max-width: 25px;
+    display: flex;
+}
+.ghlogo{
+    color:white;
+    display: flex;
+    max-width: 25px;
+}
+.linkedInlogo{
+    color: white;
+    max-width: 25px;
+    display: flex;
+}
+
+.stuff {
+  background-color: transparent;
+  transition: all 0.4s ease 0s;
+}
+
+.socials {
+  background-color: transparent;
+  width: 25%;
+  transition: all 0.4s ease 0s;
+}
+
+a {
+  background: 
+    linear-gradient(to right, transparent, transparent),
+    linear-gradient(to right, var(--white),var(--white));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 500ms;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+  opacity: 200%;
+}
+
+.copyright {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.89em;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  padding: 1em;
+}
+/* ------------------------------------------------------------- End Footer Section ------------------------------------------------------- */
+
+
+@media all and (max-width: 800px) {
+
+  .main_header h1 {
+    font-size: 5em;
+  }
+
+  .main_header small {
+    color: var(--white);
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: PetitaBold;
+    background: transparent;
+  }
+  /* ------------------------------------------------------------------------------------------ */
+  #aboutMe {
+    width: 80vw;
+    height: 125vh;
+  }
+  
+  .aboutMeTile {
+    margin: 1em;
+    height: 90vh;
+    width: 85vw;
+  }
+  
+  .aboutMeTile h2 {
+    text-align: center;
+    margin: 1em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .aboutMeContent {
+    flex-direction: column;
+  }
+  
+  .aboutMeContent p {
+    margin: 0;
+    width: 70vw;
+    font-size: 0.75em;
+  }
+  
+  .pic {
+    max-height: 30vh;
+    margin: 2em;
+    border-radius: 5px;
+  }
+  
+  .languages {
+    display: flex;
+  }
+
+  #ecom_section {
+    width: 80vw;
+    height: 125vh;
+  }
+
+  .ecomTile {
+    margin: 1em;
+    height: 90vh;
+    width: 85vw;
+  }
+
+  .ecomTile h2 {
+    text-align: center;
+    margin: 1em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .ecomtile_content {
+    flex-direction: column;
+  }
+
+  .ecomtile_content p {
+    margin: 0;
+    width: 70vw;
+    font-size: 0.75em;
+  }
+
+  footer {
+    background-position: center;
+  }
+
+  .copyright {
+    margin: 0;
+    padding-bottom: 1em;
+  }
+}
+
+
+@media all and (min-width: 1800px) {
+  .main_header {
+    background-size: 50vw;
+  }
+
+  .tile {
+    width: 50vw;
+    height: 60vh;
+  }
+  
+
+  .tile2 {
+    width: 50vw;
+    height: 45vh;
+  }
+
+  .tile2 p {
+    font-size: 1em;
+  }
+
+  .tile3 {
+    width: 50vw;
+    height: 60vh;
+  }
+
+  .tile3 p {
+    font-size: 1em;
+  }
+}
